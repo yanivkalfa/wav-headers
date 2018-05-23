@@ -24,10 +24,10 @@ var getFileHeaders = require('wav-headers');
 
 // those are defaults
 var options = {
-	channels: 2,
-	sampleRate: 44100,
-	bitDepth: 16,
-	dataLength: 4294967295
+channels: 2,
+sampleRate: 44100,
+bitDepth: 16,
+dataLength: 4294967295
 };
 
 var headersBuffer = getFileHeaders(options);
@@ -35,7 +35,7 @@ var fullBuffer = Buffer.concat([ headersBuffer, fileBodyBuffer ]);
 
 var stream = fs.createWriteStream('./aFile.wav');
 stream.write(fullBuffer, function() {
-	stream.end();
+stream.end();
 });
 
 ```
