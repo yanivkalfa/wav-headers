@@ -8,7 +8,7 @@ function getFileHeaders (opts = {}) {
   const channels = opts.channels || 2;
   const sampleRate = opts.sampleRate || 44100;
   const bitDepth = opts.bitDepth || 16;
-  const dataLength = opts.dataLength || 4294967295;
+  const dataLength = opts.dataLength || 4294967195;
 
   // format will have a variable size...
   var headerLength = 44;
