@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "name": "wav-headers",
+  "author": {
+    "email": "netameta1@yahoo.com",
+    "name": "Neta Meta"
+  },
+  "bugs": {
+    "url": "https://github.com/yanivkalfa/wav-headers/issues"
+  },
+  "dependencies": {
+    "buffer-alloc": "^1.1.0",
+    "buffer-from": "^1.0.0"
+  },
+  "description": "Generates wav header buffer to concatenated with the wav body buffer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanivkalfa/wav-headers.git"
+  }
+}
